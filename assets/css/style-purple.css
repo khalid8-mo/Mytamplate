@@ -28,7 +28,7 @@ a {
   transition: all 0.5s ease-in-out;
 }
 
-a:hover {
+.dark-layout a:hover {
   color: #8400ff;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
@@ -38,7 +38,7 @@ a:hover {
   position: relative;
 }
 
-.color-a {
+.dark-layout .color-a {
   color: #8400ff;
 }
 
@@ -89,7 +89,7 @@ a:hover {
   background-position: center center;
 }
 
-.overlay-mf {
+.dark-layout .overlay-mf {
   background-color: #8400ff;
 }
 
@@ -157,7 +157,7 @@ a:hover {
   color: #4e4e4e;
 }
 
-.line-mf {
+.dark-layout .line-mf {
   width: 40px;
   height: 5px;
   background-color: #8400ff;
@@ -175,7 +175,7 @@ a:hover {
   position: relative;
 }
 
-.title-left:before {
+.dark-layout .title-left:before {
   content: '';
   position: absolute;
   height: 3px;
@@ -209,7 +209,7 @@ a:hover {
   display: inline-block;
 }
 
-.socials .ico-circle {
+.dark-layout .socials .ico-circle {
   height: 40px;
   width: 40px;
   font-size: 1.7rem;
@@ -220,7 +220,7 @@ a:hover {
   transition: all 500ms ease;
 }
 
-.socials .ico-circle:hover {
+.dark-layout .socials .ico-circle:hover {
   background-color: #8400ff;
   color: #fff;
   box-shadow: 0 0 0 3px #e3c5ff;
@@ -245,14 +245,14 @@ a:hover {
   line-height: 2;
 }
 
-.list-ico span {
+.dark-layout .list-ico span {
   color: #8400ff;
   margin-right: 10px;
 }
 
 /*------/ Ico Circle /------*/
 
-.ico-circle {
+.dark-layout .ico-circle {
   height: 100px;
   width: 100px;
   font-size: 2rem;
@@ -302,7 +302,7 @@ a:hover {
   display: none;
 }
 
-.scrolltop-mf span {
+.dark-layout .scrolltop-mf span {
   z-index: 999;
   position: fixed;
   width: 42px;
@@ -323,7 +323,7 @@ a:hover {
 
 /* Back to top button */
 
-.back-to-top {
+.dark-layout .back-to-top {
   position: fixed;
   display: none;
   background: #8400ff;
@@ -358,7 +358,7 @@ a:hover {
   background: #fff;
 }
 
-#preloader:before {
+.dark-layout #preloader:before {
   content: "";
   position: fixed;
   top: calc(50% - 30px);
@@ -480,26 +480,26 @@ a:hover {
   padding-bottom: 15px;
 }
 
-.navbar-b.navbar-reduce .nav-link {
-  color: #8400ff;
+.dark-layout .navbar-b.navbar-reduce .nav-link {
+  color: #f5f5f5;
 }
 
-.navbar-b.navbar-reduce .nav-link:before {
+.dark-layout .navbar-b.navbar-reduce .nav-link:before {
   background-color: #8400ff;
 }
 
-.navbar-b.navbar-reduce .nav-link:hover {
+.dark-layout .navbar-b.navbar-reduce .nav-link:hover {
+  color: #f5f5f5;
+}
+
+.dark-layout .navbar-b.navbar-reduce .show > .nav-link,
+.dark-layout .navbar-b.navbar-reduce .active > .nav-link,
+.dark-layout .navbar-b.navbar-reduce .nav-link.show,
+.dark-layout .navbar-b.navbar-reduce .nav-link.active {
   color: #8400ff;
 }
 
-.navbar-b.navbar-reduce .show > .nav-link,
-.navbar-b.navbar-reduce .active > .nav-link,
-.navbar-b.navbar-reduce .nav-link.show,
-.navbar-b.navbar-reduce .nav-link.active {
-  color: #8400ff;
-}
-
-.navbar-b.navbar-reduce .navbar-brand {
+.dark-layout .navbar-b.navbar-reduce .navbar-brand {
   color: #8400ff;
 }
 
@@ -531,13 +531,13 @@ a:hover {
   transition: all 500ms ease;
 }
 
-.navbar-b .dropdown-menu .dropdown-item:hover {
+.dark-layout .navbar-b .dropdown-menu .dropdown-item:hover {
   background-color: #8400ff;
   color: #fff;
   transition: all 500ms ease;
 }
 
-.navbar-b .dropdown-menu .dropdown-item.active {
+.dark-layout .navbar-b .dropdown-menu .dropdown-item.active {
   background-color: #8400ff;
 }
 
@@ -650,7 +650,7 @@ a:hover {
   font-size: 3rem;
 }
 
-.intro-single .breadcrumb {
+.dark-layout .intro-single .breadcrumb {
   background-color: transparent;
   color: #8400ff;
 }
@@ -695,7 +695,7 @@ a:hover {
   height: .7rem;
 }
 
-.skill-mf .progress .progress-bar {
+.dark-layout .skill-mf .progress .progress-bar {
   height: .7rem;
   background-color: #8400ff;
 }
@@ -711,7 +711,7 @@ a:hover {
   margin-bottom: 3rem;
 }
 
-.service-box:hover .ico-circle {
+.dark-layout .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
   background-color: #8400ff;
@@ -798,17 +798,17 @@ a:hover {
   font-size: .8rem;
 }
 
-.work-content .w-more .w-ctegory {
+.dark-layout .work-content .w-more .w-ctegory {
   color: #8400ff;
 }
 
-.work-content .w-like {
+.dark-layout .work-content .w-like {
   font-size: 2.5rem;
   color: #8400ff;
   float: right;
 }
 
-.work-content .w-like a {
+.dark-layout .work-content .w-like a {
   color: #8400ff;
 }
 
@@ -850,7 +850,7 @@ a:hover {
   font-size: 1.4rem;
 }
 
-.testimonial-box .comit {
+.dark-layout .testimonial-box .comit {
   font-size: 2rem;
   color: #8400ff;
   background-color: #fff;
@@ -880,7 +880,7 @@ a:hover {
   overflow: hidden;
 }
 
-.card-blog .card-category {
+.dark-layout .card-blog .card-category {
   display: inline-block;
   color: #fff;
   padding: 0 15px 5px;
@@ -938,7 +938,7 @@ a:hover {
   margin: 1rem 0;
 }
 
-.blog-wrapper .post-meta ul {
+.dark-layout .blog-wrapper .post-meta ul {
   border-left: 4px solid #8400ff;
   margin-top: 1rem;
 }
@@ -948,7 +948,7 @@ a:hover {
   margin-left: 15px;
 }
 
-.blog-wrapper .post-meta ul a {
+.dark-layout .blog-wrapper .post-meta ul a {
   color: #8400ff;
 }
 
@@ -956,7 +956,7 @@ a:hover {
   color: #1e1e1e;
 }
 
-.blog-wrapper .blockquote {
+.dark-layout .blog-wrapper .blockquote {
   border-left: 4px solid #8400ff;
   padding: 18px;
   font-style: italic;
@@ -988,7 +988,7 @@ a:hover {
   padding-left: 25px;
 }
 
-.box-comments .list-comments a {
+.dark-layout .box-comments .list-comments a {
   color: #8400ff;
 }
 
@@ -1003,7 +1003,7 @@ a:hover {
 
 /*------/ Sidebar /------*/
 
-.widget-sidebar .sidebar-title {
+.dark-layout .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;
   border-left: 5px solid #8400ff;
@@ -1017,7 +1017,7 @@ a:hover {
   padding: 6px 0 6px 24px;
 }
 
-.widget-sidebar .list-sidebar li:before {
+.dark-layout .widget-sidebar .list-sidebar li:before {
   position: absolute;
   content: "";
   width: 10px;
@@ -1033,7 +1033,7 @@ a:hover {
   transition: all 0.5s ease-in-out;
 }
 
-.sidebar-search .btn-search {
+.dark-layout .sidebar-search .btn-search {
   background-color: #8400ff;
   border-color: #8400ff;
   border-radius: 0;
@@ -1041,7 +1041,7 @@ a:hover {
   padding-right: 20px;
 }
 
-.widget-tags ul li {
+.dark-layout .widget-tags ul li {
   display: inline-block;
   background-color: #8400ff;
   padding: .2rem .6rem;
@@ -1091,7 +1091,7 @@ footer .credits a {
 //--//-->   CONtaCT FORM
 ======================================*/
 
-#sendmessage {
+.dark-layout #sendmessage {
   color: #8400ff;
   border: 1px solid #8400ff;
   display: none;
@@ -1155,7 +1155,7 @@ footer .credits a {
   transition: all 500ms ease;
 }
 
-.button-a {
+.dark-layout .button-a {
   background-color: #8400ff;
   color: #fff;
   border-color: #e3c5ff;

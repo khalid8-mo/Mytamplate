@@ -147,63 +147,6 @@ function featherSVG(iconSize) {
   return feather.replace({ width: iconSize, height: iconSize });
 }
 
-// jQuery Validation Global Defaults
-if (typeof jQuery.validator === 'function') {
-  jQuery.validator.setDefaults({
-    errorElement: 'span',
-    errorPlacement: function (error, element) {
-      if (
-        element.parent().hasClass('input-group') ||
-        element.hasClass('select2') ||
-        element.attr('type') === 'checkbox'
-      ) {
-        error.insertAfter(element.parent());
-      } else if (element.hasClass('custom-control-input')) {
-        error.insertAfter(element.parent().siblings(':last'));
-      } else {
-        error.insertAfter(element);
-      }
+ 
 
-      if (element.parent().hasClass('input-group')) {
-        element.parent().addClass('is-invalid');
-      }
-    },
-    highlight: function (element, errorClass, validClass) {
-      $(element).addClass('error');
-      if ($(element).parent().hasClass('input-group')) {
-        $(element).parent().addClass('is-invalid');
-      }
-    },
-    unhighlight: function (element, errorClass, validClass) {
-      $(element).removeClass('error');
-      if ($(element).parent().hasClass('input-group')) {
-        $(element).parent().removeClass('is-invalid');
-      }
-    }
-  });
-}
-
-// Add validation class to input-group (input group validation fix, currently disabled but will be useful in future)
-/* function inputGroupValidation(el) {
-  var validEl,
-    invalidEl,
-    elem = $(el);
-
-  if (elem.hasClass('form-control')) {
-    if ($(elem).is('.form-control:valid, .form-control.is-valid')) {
-      validEl = elem;
-    }
-    if ($(elem).is('.form-control:invalid, .form-control.is-invalid')) {
-      invalidEl = elem;
-    }
-  } else {
-    validEl = elem.find('.form-control:valid, .form-control.is-valid');
-    invalidEl = elem.find('.form-control:invalid, .form-control.is-invalid');
-  }
-  if (validEl !== undefined) {
-    validEl.closest('.input-group').removeClass('.is-valid is-invalid').addClass('is-valid');
-  }
-  if (invalidEl !== undefined) {
-    invalidEl.closest('.input-group').removeClass('.is-valid is-invalid').addClass('is-invalid');
-  }
-} */
+ 
