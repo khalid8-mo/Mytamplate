@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color: #fff;
+}
+a{
+    color: #fff;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #fff;
+}
+.navbar-b.navbar-reduce{
+    background-color: #212020;
+}
+.box-shadow-full{
+    background-color: #212020;
+}
+
+.title-s{
+    color: #fff;
+}
+.skill-mf span{
+    color: #fff;
+}
+.card{
+    background-color:#212020 ;
+    color: #fff;
+}
+.subtitle-a{
+    color: #cac9c9;
+}
+/* Work */
+.work-box{
+    background-color:#212020 ;
+}
+.work-content .w-more{
+    color: #fff;
+}
+.lb-outerContainer{
+    background-color: #212020;
+}
+.lightbox .lb-image{
+    border-color: #212020;
+}
+/* Blog */
+.card-blog .card-description{
+    color: #d2cbcb;
+}
+.card-blog .post-date{
+    color: #d2cbcb;
+}
+.intro .overlay-itro{
+    height: 760px;
+}
